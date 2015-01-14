@@ -1,1 +1,12 @@
-["ownership"]
+[
+  "crypto-browserify",
+  "sha.js",
+  "hash-test-vectors",
+  "browserify-sign",
+  "public-encrypt",
+  "create-ecdh",
+  "parse-asn1",
+  "browserify-rsa",
+  "diffie-hellman",
+  "browserify-aes"
+]

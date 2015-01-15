@@ -3,7 +3,7 @@
 var name = process.argv[2],
     ownership = require('./'),
     path = require('path'),
-    users = require('./example-users.json');
+    users = require('./crypto-users.json');
 
 if (!name) throw new Error('usage: ' + path.basename(process.argv[1]) + ' packagename');
 

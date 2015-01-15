@@ -18,8 +18,8 @@ It's called `mapbox-owners` and has a hardcoded list of people in the package:
 updating the package updates the list.
 
 Do the same: fork this, rename it in `package.json` to something else,
-change the names of the binaries, and change the [example-users.json](example-users.json)
-and [example-packages.json](example-packages.json) configuration files to suit
+change the names of the binaries, and change the [crypto-users.json](crypto-users.json)
+and [crypto-packages.json](crypto-packages.json) configuration files to suit
 your fancy.
 
 # install
@@ -37,10 +37,10 @@ and adds all users to that package as owners. For instance:
 
     ownership express
 
-Would add all users in `example-users.json` as owners to the
+Would add all users in `crypto-users.json` as owners to the
 `express` packages.
 
 ## ownership-all
 
 `ownership-all` doesn't take any arguments: it adds all users in
-`example-users.json` to all packages in `example-packages.json`.
+`crypto-users.json` to all packages in `crypto-packages.json`.

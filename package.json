@@ -4,8 +4,8 @@
   "description": "manage npm owner status in bulk",
   "main": "index.js",
   "bin": {
-    "ownership": "crypto-ownership",
-    "ownership-all": "crypto-ownership-all"
+    "crypto-ownership": "ownership",
+    "crypto-ownership-all": "ownership-all"
   },
   "repository": {
     "type": "git",

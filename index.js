@@ -8,9 +8,9 @@ function addUsersToPackages(users, packages, callback) {
     addPackage();
     function addPackage() {
         var p = packages[++i];
+        
+        if (!p) { return callback(); }
         console.log('Adding users to ', p);
-        if (!p) { return callback(null); }
-
         addUsersToPackage(users, p, function(err) {
             if (!err) addPackage();
         });
@@ -25,7 +25,7 @@ function addUsersToPackage(users, name, callback) {
 
         if (!user) {
             process.stdout.write('\n');
-            return callback(null);
+            return callback();
         }
 
         spawn('npm', ['owner', 'add', user, name])

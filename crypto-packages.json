@@ -1,13 +1,14 @@
 [
-  "crypto-browserify",
-  "browserify-sign",
-  "public-encrypt",
-  "create-ecdh",
-  "parse-asn1",
-  "browserify-rsa",
-  "diffie-hellman",
   "browserify-aes",
+  "browserify-rsa",
+  "browserify-sign",
+  "create-ecdh",
   "create-hash",
   "create-hmac",
+  "crypto-browserify",
+  "diffie-hellman",
+  "parse-asn1",
+  "pbkdf2-compat",
+  "public-encrypt",
   "randombytes"
 ]

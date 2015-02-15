@@ -8,7 +8,7 @@
   "crypto-browserify",
   "diffie-hellman",
   "parse-asn1",
-  "pbkdf2-compat",
+  "pbkdf2",
   "public-encrypt",
   "randombytes"
 ]

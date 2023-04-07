@@ -10,5 +10,19 @@
   "parse-asn1",
   "pbkdf2",
   "public-encrypt",
-  "randombytes"
+  "randombytes",
+  "hash-base",
+  "cipher-base",
+  "sha.js",
+  "browserify-des",
+  "browserify-cipher",
+  "buffer-xor",
+  "browserify-scrypt",
+  "evp_bytestokey",
+  "md5.js",
+  "buffer-reverse",
+  "timing-safe-equal",
+  "ripemd160",
+  "randomfill",
+  "pseudorandombytes"
 ]
